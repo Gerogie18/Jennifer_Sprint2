@@ -17,7 +17,9 @@ const AboutMeDiv = () => {
     };
 
     return (
-        <div style={aboutMeStyle}>
+        <div
+            className="about-me-container" 
+            style={aboutMeStyle}>
             <img    src = "/profileimage.jpeg" 
                     alt="J Lyver profile picture" 
                     title="J Lyver profile picture"
